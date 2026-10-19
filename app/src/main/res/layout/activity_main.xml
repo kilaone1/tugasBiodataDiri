@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIODATA DIRI"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:fontFamily="@font/coolvetica"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama: Adila Shakila"
+        android:fontFamily="@font/poppin"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM: 252070001"
+        android:textSize="25sp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prodi: Informatika"
+        android:textSize="25sp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppin"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asal: Sumatera Selatan"
+        android:textSize="25sp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir: 11 0ktober 2007"
+        android:textSize="25sp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppin"/>
+
+</LinearLayout>
